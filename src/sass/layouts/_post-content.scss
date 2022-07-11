@@ -482,7 +482,6 @@
 
   button:not(.m-icon-button):not(.kg-video-card button):not(.kg-audio-card
       button) {
-    border: 1px solid var(--primary-foreground-color) !important;
     @extend .m-button;
   }
 
