@@ -206,6 +206,8 @@
 .l-post-content a {
   color: var(--primary-foreground-color);
   text-decoration: none;
+  font-family: "Jokerman Std";
+  font-size: 1.5rem;
   transition: color linear 0.2s;
 }
 .l-post-content a:hover {
@@ -1248,9 +1250,10 @@
   color: var(--link-color);
   letter-spacing: 0.2px;
   line-height: 1.3;
-  font-size: 1.125rem;
+  font-size: 1.5rem;
   font-weight: 400;
   margin: 0 0 15px;
+  font-family: "Jokerman Std";
 }
 @media only screen and (min-width: 48rem) {
   .m-author__name {

@@ -107,6 +107,8 @@
   a {
     color: var(--primary-foreground-color);
     text-decoration: none;
+    font-family: 'Jokerman Std';
+    font-size: 1.5rem;
     @include transition(color linear 0.2s);
 
     &:hover {

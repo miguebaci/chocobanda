@@ -2152,11 +2152,6 @@ _:-ms-fullscreen, :root .m-toggle-darkmode {
   }
 }
 
-/* source-sans-pro-regular */
-@font-face {
-  font-family: "Jokerman";
-  src: url("../fonts/jokerman-std/JokermanStd.otf");
-}
 .m-hero-title {
   color: var(--titles-color);
   letter-spacing: 0.4px;
@@ -2164,7 +2159,7 @@ _:-ms-fullscreen, :root .m-toggle-darkmode {
   font-size: 1.75rem;
   font-weight: 700;
   margin: 0 0 15px;
-  font-family: Jokerman;
+  font-family: "Jokerman Std";
 }
 @media only screen and (min-width: 48rem) {
   .m-hero-title {
@@ -2292,6 +2287,7 @@ _:-ms-fullscreen, :root .m-toggle-darkmode {
   line-height: 1.3;
   font-size: 1.75rem;
   margin: 0 0 10px;
+  font-family: "Jokerman Std";
 }
 @media only screen and (min-width: 48rem) {
   .m-heading__title {

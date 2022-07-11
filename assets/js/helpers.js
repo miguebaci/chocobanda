@@ -178,4 +178,4 @@ module.exports = __webpack_require__(/*! C:\Users\Miguel\Desktop\liebling\src\sa
 
 /***/ })
 
-},[[0,"/js/manifest","/js/vendor"]]]);
+},[[0,"/js/manifest"]]]);

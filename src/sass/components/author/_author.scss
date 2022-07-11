@@ -68,9 +68,10 @@
   color: var(--link-color);
   letter-spacing: 0.2px;
   line-height: 1.3;
-  font-size: 1.125rem;
+  font-size: 1.5rem;
   font-weight: 400;
   margin: 0 0 15px;
+  font-family: 'Jokerman Std';
 
   @include respond-to('medium') {
     letter-spacing: 0.3px;
