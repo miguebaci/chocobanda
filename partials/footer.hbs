@@ -3,6 +3,8 @@ This footer template is shared across all the pages.
 --}}
 
 <footer class="m-footer">
+
+  
   <div class="m-footer__content">
     {{#if @site.secondary_navigation}}
       <nav class="m-footer__nav-secondary" role="navigation" aria-label="{{t "Secondary menu in footer"}}">
@@ -21,5 +23,17 @@ This footer template is shared across all the pages.
         </a>
       {{/if}}
     </nav>
+    <div>
+      ¡Suscribite para recibir novedades!
+      <form class="suscribeForm" data-members-form >
+        <input class="suscribeInput" placeholder="Email" type="email" required data-members-email />
+        <button class="suscribeButton">
+          <span class="loading">Cargando...</span>
+          <span class="default">Suscríbete</span>
+          <span class="success">¡Revisa tu casilla de correo!</span>
+          <span class="error">¡Error! Intenta de nuevo</span>
+        </button>
+      </form>
+    </div>
   </div>
 </footer>

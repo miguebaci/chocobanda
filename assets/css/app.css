@@ -1039,7 +1039,6 @@ fieldset {
   font-size: 1rem;
   font-weight: 600;
   border-radius: 5px;
-  padding: 13px 25px;
   cursor: pointer;
   outline: 0;
   border: 0;
@@ -2801,6 +2800,48 @@ _:-ms-fullscreen, :root .m-toggle-darkmode {
 .m-footer {
   flex-shrink: 0;
   background-color: var(--footer-background-color);
+}
+
+.suscribeButton {
+  height: 2.5rem;
+  border: none;
+  font-family: "Jokerman Std";
+  color: #fafafa;
+  background-color: #FF1A75;
+  border-radius: 5px;
+  margin-left: 0.5rem;
+}
+
+.suscribeInput {
+  border-radius: 10px;
+  height: 2.5rem;
+  padding-right: 2rem;
+}
+
+.suscribeForm {
+  margin-left: 2rem;
+  margin-top: 0.5rem;
+}
+
+/* Hide stateful content */
+.suscribeForm .loading,
+.suscribeForm .success,
+.suscribeForm .error {
+  display: none;
+}
+
+/* Show stateful content */
+.loading .loading,
+.success .success,
+.error .error {
+  display: initial;
+}
+
+/* Hide default when stateful content is shown */
+.loading .default,
+.success .default,
+.error .default {
+  display: none;
 }
 
 .m-footer__content {

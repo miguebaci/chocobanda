@@ -547,9 +547,6 @@
   background-size: 15px 8px;
   background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5IiBoZWlnaHQ9IjUiIHZpZXdCb3g9IjAgMCA5IDUiPgogICAgPHBhdGggZmlsbD0iIzU2NWU2MCIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNOC4zMi41N2EuMjQ3LjI0NyAwIDAgMSAwIC4zNkw0LjY4IDQuNTdhLjI0Ny4yNDcgMCAwIDEtLjM2IDBMLjY4LjkzYS4yNDcuMjQ3IDAgMCAxIDAtLjM2bC4zOS0uMzlhLjI0Ny4yNDcgMCAwIDEgLjM2IDBMNC41IDMuMjUgNy41Ny4xOGEuMjQ3LjI0NyAwIDAgMSAuMzYgMGwuMzkuMzl6Ii8+Cjwvc3ZnPgo=");
 }
-.l-post-content button:not(.m-icon-button):not(.kg-video-card button):not(.kg-audio-card button) {
-  border: 1px solid var(--primary-foreground-color) !important;
-}
 .l-post-content .kg-bookmark-card {
   width: 100%;
   padding: 0 !important;
@@ -873,7 +870,6 @@
   font-size: 1rem;
   font-weight: 600;
   border-radius: 5px;
-  padding: 13px 25px;
   cursor: pointer;
   outline: 0;
   border: 0;
