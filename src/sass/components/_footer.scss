@@ -3,6 +3,47 @@
   background-color: var(--footer-background-color);
 }
 
+.suscribeButton{
+  height: 2.5rem;
+  border: none;
+  font-family: 'Jokerman Std';
+  color: #fafafa;
+  background-color: #FF1A75;
+  border-radius: 5px;
+  margin-left: 0.5rem;
+}
+
+.suscribeInput{
+  border-radius: 10px;
+  height: 2.5rem;
+  padding-right: 2rem;
+}
+
+.suscribeForm {
+  margin-left: 2rem;
+  margin-top: 0.5rem;
+}
+
+/* Hide stateful content */
+.suscribeForm .loading, 
+.suscribeForm .success,
+.suscribeForm .error {
+    display: none;
+}
+
+/* Show stateful content */
+.loading .loading,
+.success .success,
+.error .error {
+    display: initial;
+}
+
+/* Hide default when stateful content is shown */
+.loading .default,
+.success .default,
+.error .default {
+    display: none;
+}
 .m-footer__content {
   color: $white;
   text-align: center;
