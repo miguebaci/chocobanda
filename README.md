@@ -1,30 +1,6 @@
 # Liebling
 
-Liebling is a beautiful and clean Ghost theme that is easy and comfortable to use. **It's free** and you can use it for any kind of content you might have. Now with dark mode 🌓!
-
-If you find this theme useful, please consider to make a donation to support its development! 🙏🏼
-
-<a href="https://ko-fi.com/eddiesigner" target="_blank"><img src="https://res.cloudinary.com/edev/image/upload/v1583011476/button_y8hgt8.png" alt="Donate" style="width: 250px !important; height: 60px !important;" width="250" height="60"></a>
-
-## Ghost 4
-
-This theme has been optimized for Ghost 4, if you are looking for a Ghost 3 compatible version please refer to [this link](https://github.com/eddiesigner/liebling/releases/tag/v.0.9.4).
-
-## Preview
-
-You can see a live demo here: [https://liebling.eduardogomez.io](https://liebling.eduardogomez.io)
-
-![](https://res.cloudinary.com/edev/image/upload/v1583792928/liebling/liebling-promo-desktop.jpg)
-<br><br>
-![](https://res.cloudinary.com/edev/image/upload/v1570370297/liebling/liebling-promo-mobile.jpg)
-
-## Download
-
-To get the latest version please head over the [releases page](https://github.com/eddiesigner/liebling/releases) and download the file `liebling.zip` of the latest release.
-
-## Documentation
-
-To know how to enable the search, comments, newsletter and more, please head to the [Wiki](https://github.com/eddiesigner/liebling/wiki).
+## Ghost 5
 
 ## Features
 
