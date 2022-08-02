@@ -1,6 +1,6 @@
 :root,
 [data-theme="light"] {
-  --background-color: #fff;
+  --background-color: #F5EDDC;
   --primary-foreground-color: #4a4a4a;
   --secondary-foreground-color: #000;
   --primary-subtle-color: #0470ee;
@@ -12,7 +12,7 @@
   --article-shadow-normal: 0 10px 10px rgba(0, 0, 0, 0.08);
   --article-shadow-hover: 0 4px 60px 0 rgba(0, 0, 0, 0.2);
   --transparent-background-color: rgba(255, 255, 255, 0.99);
-  --footer-background-color: #133467;
+  --footer-background-color: #FFA1A1;
   --submenu-shadow-color-opacity: 0.25;
   --button-shadow-color-normal: rgba(108, 108, 108, 0.2);
   --button-shadow-color-hover: rgba(108, 108, 108, 0.3);
@@ -22,7 +22,7 @@
   --toggle-darkmode-button-display-sun: none;
   --toggle-darkmode-background-color: rgba(0, 0, 0, 0.05);
   --header-menu-gradient-first-color: rgba(255, 255, 255, 0);
-  --header-menu-gradient-second-color: rgba(255, 255, 255, 1);
+  --header-menu-gradient-second-color: #F5EDDC;
   --kg-card-img-invert-color: 0;
 }
 
